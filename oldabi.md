@@ -14,6 +14,9 @@ Tweak developers were advised to compile with the old ABI, however. The reason f
   - XinaA15 "rootless" does not have an embedded patch. However, it has an additional package called `oldabi-xina` that can be installed via the [XinaA15 Repo](https://apt.xina.vip);
 - [Dopamine](https://ellekit.space/Dopamine) jailbreak
   - Dopamine does not have an embedded patch. However, it has an additional package called "Legacy arm64e Support" that is able to be installed via the [ElleKit Repo](https://ellekit.space).
+- [Fugu15_Rootful](https://github.com/pinauten/Fugu15_Rootful) jailbreak
+  - Fugu15 has an another strategy - it disables userspace jop, allowing arm64-compiled code to run on arm64e. No package installation is needed, everything is shipped into jailbreakd and dyldhook.
+  
 
 On iOS 14.5-14.8.1, the patches needed to support the old ABI are minimal and are implemented on the jailbeak's end. Starting with iOS 15, though, arm64e jailbreaks need a more robust solution to support the old ABI, which causes system instability.
 
